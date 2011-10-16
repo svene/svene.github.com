@@ -24,7 +24,7 @@ if (!templates.keySet().contains(key)) {
 templates[key].createTargetFolder()
 
 def printUsage(Map aTemplates) {
-	println 'Usage: groovy J.groovy ' + aTemplates.keySet().join(' | ')
+	println 'Usage: groovy jdt.groovy ' + aTemplates.keySet().join(' | ')
 	System.exit(1)
 }
 
