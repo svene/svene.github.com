@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>A Basic HTML5 Template</title>
+	<meta name="description" content="baloise design system html example">
+	<meta name="author" content="Sven Ehrke">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@baloise/design-system-fonts/lib/fonts.css" />
+	<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@baloise/design-system-components/dist/design-system-components/design-system-components.css"
+	/>
+	<script
+			type="module"
+			src="https://cdn.jsdelivr.net/npm/@baloise/design-system-components/dist/design-system-components/design-system-components.esm.js"
+	></script>
+	<script
+			nomodule
+			src="https://cdn.jsdelivr.net/npm/@baloise/design-system-components/dist/design-system-components/design-system-components.js"
+	></script>
+
+</head>
+
+<body>
+<bal-app background>
+	<header>
+		<div class="container">
+			<bal-heading color="primary" level="h4" space="all">Primary</bal-heading>
+		</div>
+	</header>
+
+	<main class="container">
+
+		<div class="bal-buttons is-center">
+			<bal-button color="primary" data-test-id="primary-button">Continue</bal-button>
+			<bal-button color="link">Back</bal-button>
+		</div>
+
+		<span>Spiderman</span>
+		<bal-hint data-test-id="hint">
+			<bal-hint-title>Spider-Man</bal-hint-title>
+			<bal-hint-text>
+				Spider-Man is a fictional superhero created by writer-editor Stan Lee and writer-artist Steve Ditko. He first appeared in the anthology comic book Amazing Fantasy #15
+				(August 1962) in the Silver Age of Comic Books. He appears in American comic books published by Marvel Comics, as well as in a number of movies, television shows, and
+				video game adaptations set in the Marvel Universe.
+			</bal-hint-text>
+		</bal-hint>
+
+	</main>
+
+	<bal-footer>
+		<div>footer</div>
+	</bal-footer>
+</bal-app>
+</body>
+
+</html>
